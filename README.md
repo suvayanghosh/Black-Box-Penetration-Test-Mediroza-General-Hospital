@@ -1,4 +1,4 @@
-# 🏥 Week 4 — Black-Box Penetration Test: Mediroza General Hospital (Capstone)
+# 🏥 Black-Box Penetration Test: Mediroza General Hospital (Capstone)
 
 **Four "minor" findings walked into a hospital's backend and walked out with the entire staff payroll.**
 
@@ -16,7 +16,7 @@ This is the capstone of the series — Week 4 of the Cybersecurity & Ethical Hac
 
 - **Week 1:** [Kali-Linux-Lab-Setup-in-Virtualbox](https://github.com/suvayanghosh/Kali-Linux-Lab-Setup-in-Virtualbox)
 - **Week 2:** [Footprinting-Reconnaissance-Lab](https://github.com/suvayanghosh/Footprinting-Reconnaissance-Lab)
-- **Week 3:** Password Cracking with JTR & NetworkWalks Tools
+- **Week 3:** [Password Cracking with JTR & NetworkWalks Tools](https://github.com/suvayanghosh/Password-Cracking-with-JTR-NetworkWalks-Tools)
 
 ---
 
@@ -40,7 +40,7 @@ This is the capstone of the series — Week 4 of the Cybersecurity & Ethical Hac
 
 ## 📖 Backstory
 
-Weeks 1 through 3 were single-tool exercises — build a lab, run a recon tool, crack a password. Week 4 stopped handing out individual tools and handed out a client instead.
+Weeks 1 through 3 were single-tool exercises. Build a lab, run a recon tool, crack a password. Week 4 stopped handing out individual tools and handed out a client instead.
 
 Mediroza General Hospital, five days, one black-box engagement: no credentials, no source code, no map of the application, just a domain and four milestones that each depended on getting the one before it right. What started as routine footprinting ended up chaining a disclosed directory, a login form that trusted raw input, and a forgotten developer comment into full, unauthenticated access to the hospital's staff salary and shareholder records. Nothing in that chain was individually dramatic. Together, it was the entire point of the exercise.
 
@@ -48,7 +48,7 @@ Mediroza General Hospital, five days, one black-box engagement: no credentials, 
 
 ## 🎯 What I Set Out to Do
 
-- Attack `medirozahospital.com` from a true black-box starting point — no credentials, no source, nothing handed over beyond the domain itself.
+- Attack `medirozahospital.com` from a true black-box starting point with no credentials, no source, nothing handed over beyond the domain itself.
 - Find a way into a restricted area of the site and retrieve the 3 confidential patient PDF lab reports behind it.
 - Treat each of those 3 files as its own problem and recover the password protecting each one.
 - Go back over everything already collected, rather than stopping at "files decrypted," and follow wherever that led.
