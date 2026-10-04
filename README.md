@@ -211,7 +211,7 @@ Everything above was written up as a full professional penetration testing repor
 | 04 | Risk Rating | Every vulnerability rated Critical, High, Medium or Low with justification |
 | 05 | Recommendations and Remediation | Actionable steps the client should take to fix each identified issue |
 
-📄 Full report: *[add the filename/link once it's in the repo]*
+📄 Full report: ![Mediroza Pentest Report M4](Mediroza Pentest Report M4.pdf)
 
 ---
 
